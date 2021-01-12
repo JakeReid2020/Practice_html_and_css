@@ -36,6 +36,51 @@
           </div>
         </div>
     </nav>
+
+    <h1>Booking</h1>
+        <h3>Spaces going fast</h3>
+        <fieldset>
+            <form>
+                <Legend>Select your date:</Legend>
+                
+                <label for="date of birth">Enter the date you  would like to go:</label>
+                <input type="date" class="form-control" id="date" name="date" required />
+                <br />
+                <label for="time">Enter the time you  would like to go:</label>
+                <input type="time" class="form-control" id="time" name="time" required />
+                </br>
+                </br>
+                <a type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#firstModel"> Done </a>
+                <button type="reset" class="btn btn-warning"> Reset </button>
+                <a class="btn btn-light" href="../Login/Login.html"> Back </a>
+                </br>
+            </form>
+        </fieldset>
+    </div>
+
+    <div class="modal" id="firstModel">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title">Booked</h2>
+                    <button type="button" class="close" data-bs-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Thank you for joining us.</p>
+                </div>
+                <div class="modal-footer">
+                    <p>Look forward to seeing you then!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
+
 </body>
 
 </html>
